@@ -1,0 +1,5 @@
+---
+# tasks file for python
+- name: INSTALL PYTHON
+  
+  raw: "env ASSUME_ALWAYS_YES=YES pkg install python2"  
