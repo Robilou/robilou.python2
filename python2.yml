@@ -1,0 +1,10 @@
+---
+- hosts: freebsd
+  gather_facts: no
+  connection: paramiko
+  become: yes
+  become_method: su
+  become_user: root
+  
+  roles:
+  - python2
