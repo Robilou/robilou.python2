@@ -28,7 +28,7 @@ galaxy_info:
   #categories:
  - name: FreeBSD
       versions:
-        - 10.2
+        - All
 
 dependencies: []
   # List your role dependencies here, one per line.
